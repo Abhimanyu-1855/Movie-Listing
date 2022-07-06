@@ -1,0 +1,141 @@
+body {
+  background-color:#E8A0BF;
+  color: #ffffff;
+}
+
+.movie-app > .row {
+  background-color: #C689C6;
+  overflow-y: scroll;
+  flex-wrap :nowrap;
+  width: 100;
+  height: 600px;
+  margin-left: 3px;
+  margin-right: 0px;
+  padding-right: 0px;
+
+}
+.movie-app {
+  margin-left: -8px;
+}
+#top{
+  background-color:#937DC2;
+  height: 60px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  align-items: center;
+}
+
+.marg{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#bo {
+  color : black;
+  padding-left: 20px;
+  font-size: 45px; 
+  text-align: center;
+}
+#about{
+  background-color: #541212;
+  height :fit-content;
+  margin-left: 15px;
+}
+
+.image-container{
+  transition: transform 0.2s;
+}
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#title{
+  color:#abeded;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #800000;
+  transition: 0.4s ease-out;
+  width:300px;
+  height: 60px;
+  margin-left: 15px;
+   
+
+}
+.searchbox{
+  transition: 0.4s ease-out;
+}
+
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #DAEAF1;
+
+	overflow-y: scroll;
+}
+
+.popup .content {
+	display: block;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 25px;
+
+	color: black;
+}
+
+.popup .content h2 {
+	font-size: 28px;
+	font-weight: 600;
+}
+.popup .content h2 span {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.popup .content .rating {
+	margin-bottom: 30px;
+}
+
+.popup .content .plot {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px 30px;
+}
+
+.popup .content .plot img {
+	flex: 1 1 50%;
+	max-width: 300px;
+	padding: 0px 15px;
+}
+
+.popup .content .plot p {
+	flex: 1 1 50%;
+	padding: 15px;
+}
+
+.popup .content .close {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-weight: 700;
+
+	background: #4484C4;
+	color: #FFF;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	appearance: none;
+	cursor: pointer;
+
+	transition: 0.4s ease-out;
+}
